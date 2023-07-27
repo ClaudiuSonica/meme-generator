@@ -9,13 +9,14 @@
 
   .form--input__box {
     display: flex;
-    gap: 0.5rem;
+    gap: 1rem;
 
     .form--input {
       width: 100%;
       height: 2.1875rem;
       border-radius: 0.3125rem;
       border: 1px solid #d5d4d8;
+      text-indent: .5rem;
     }
   }
 
