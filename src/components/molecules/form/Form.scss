@@ -1,0 +1,34 @@
+@import "../../../scss/variables";
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.94rem;
+  // align-items: center;
+  padding-inline: 10%;
+
+  .form--input__box {
+    display: flex;
+    gap: 0.5rem;
+
+    .form--input {
+      width: 100%;
+      height: 2.1875rem;
+      border-radius: 0.3125rem;
+      border: 1px solid #d5d4d8;
+    }
+  }
+
+  .form--btn {
+    height: 2.5rem;
+    border-radius: 0.3125rem;
+    border: 0;
+    background: linear-gradient(135deg, #711f8d 0%, #a818da 100%);
+    font-size: 1rem;
+    color: $white;
+    font-family: $karla;
+    font-weight: 700;
+    letter-spacing: -0.1rem;
+    cursor: pointer;
+  }
+}

@@ -1,1 +1,13 @@
-@import '../../../scss/variables';
+@import "../../../scss/variables";
+
+.header--title {
+  margin-inline-end: auto;
+
+  h1 {
+    color: $white;
+    font-family: $karla;
+    font-size: 1.29675rem;
+    font-weight: 700;
+    letter-spacing: -0.12969rem;
+  }
+}

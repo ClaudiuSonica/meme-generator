@@ -1,1 +1,11 @@
 @import '../../../scss/variables';
+
+header {
+  display: flex;
+  gap: .5rem;
+  height: 4.0625rem;
+  align-items: center;
+  background: $gradient;
+  padding-inline: 2rem;
+  margin-block-end: 2.25rem;
+}
