@@ -4,8 +4,8 @@
   display: flex;
   flex-direction: column;
   gap: 0.94rem;
-  // align-items: center;
   padding-inline: 10%;
+  margin-block-end: 2.25rem;
 
   .form--input__box {
     display: flex;
@@ -29,7 +29,6 @@
     color: $white;
     font-family: $karla;
     font-weight: 700;
-    letter-spacing: -0.1rem;
     cursor: pointer;
   }
 }

@@ -1,12 +1,12 @@
-import Form from "../molecules/form/Form";
 import Header from "../molecules/header/Header";
+import Meme from "../organisms/meme/Meme";
 import "./LandingPage.scss";
 
 const LandingPage = () => {
   return (
     <>
       <Header />
-      <Form />
+      <Meme />
     </>
   );
 };
