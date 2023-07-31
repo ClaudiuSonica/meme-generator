@@ -1,10 +1,17 @@
 @import "../../../scss/variables";
 
+main {
+  padding-inline: 5%;
+  max-width: 900px;
+  margin-inline: auto;
+}
+
 .meme {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-inline: auto;
 
   .meme--image {
     max-width: 100%;

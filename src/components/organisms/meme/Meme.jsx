@@ -57,7 +57,7 @@ const Meme = () => {
 
   // Render the meme generator form and the generated meme image with text
   return (
-    <>
+    <main>
       <Form
         handleChange={onChange}
         state={meme}
@@ -69,7 +69,7 @@ const Meme = () => {
         <h2 className="meme--text top">{meme.topText}</h2>
         <h2 className="meme--text bottom">{meme.bottomText}</h2>
       </div>
-    </>
+    </main>
   );
 };
 

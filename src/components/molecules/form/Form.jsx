@@ -9,7 +9,7 @@ import "./Form.scss";
  */
 const Form = (props) => {
   return (
-    <main>
+    <div>
       {/* Form for inputting text */}
       <form className="form" onSubmit={props.resetText}>
         <div className="form--input__box">
@@ -37,7 +37,7 @@ const Form = (props) => {
           Get a new meme image 🖼
         </button>
       </form>
-    </main>
+    </div>
   );
 };
 
